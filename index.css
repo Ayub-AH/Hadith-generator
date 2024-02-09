@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Lato&family=Lobster&family=Oswald&family=Playfair+Display&family=Roboto:ital@1&family=Style+Script&display=swap');
+body {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+
+  margin: 0; /* Remove default margin */
+  background-color:rgba(178, 158, 158, 0.413);
+  font-family: oswald;
+  overflow: scroll;
+}
+
+.contentHolder {
+  background-color: rgba(211, 192, 192, 0.158);
+  padding: 10px;
+  width: 80%; /* Adjust the width as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px black;
+
+}
+.bigDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#chapterName{
+  font-size: 20px;
+}
+#randombtn{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  cursor:pointer;
+
+}
+h1{
+  font-size: 35px;
+}
